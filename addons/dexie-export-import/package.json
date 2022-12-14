@@ -1,5 +1,5 @@
 {
-  "name": "dexie-export-import",
+  "name": "@myc90/dexie-export-import",
   "version": "4.0.4",
   "packageManager": "^pnpm@7.9.5",
   "description": "Dexie addon that adds export and import capabilities",
@@ -37,13 +37,13 @@
     "@rollup/plugin-alias": "^3.1.2",
     "@types/node": "^13.5.1",
     "base64-arraybuffer-es6": "*",
-    "clarinet": "dfahlander/clarinet",
+    "clarinet": "@myc90/clarinet",
     "just-build": "^0.9.24",
     "rollup-plugin-alias": "^2.2.0",
     "typeson": "^5.8.2",
     "typeson-registry": "^1.0.0-alpha.21"
   },
   "peerDependencies": {
-    "dexie": "workspace:^2.0.4 || ^3.0.0 || ^4.0.0-alpha.1"
+    "dexie": "^2.0.4 || ^3.0.0 || ^4.0.0-alpha.1"
   }
 }
